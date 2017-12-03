@@ -2868,6 +2868,11 @@
                 width: 50%;
             }
 
+            .tiles .posts-carousel header.major {
+                position: relative;
+                width: auto;
+            }
+
             .tiles .posts-carousel .slick-list,
             .tiles .posts-carousel .slick-slide,
             .tiles .posts-carousel .slick-track,
@@ -2886,7 +2891,7 @@
                 position: absolute;
                 bottom: 50px;
                 right: 80px;
-                z-index: 9999999;
+                z-index: 1;
             }
 
             .tiles .posts-carousel .slick-prev {
@@ -2894,7 +2899,7 @@
                 position: absolute;
                 bottom: 50px;
                 left: 80px;
-                z-index: 9999999;
+                z-index: 1;
             }
 
             .tiles article:nth-child(4n - 1) {
